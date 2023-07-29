@@ -1,0 +1,718 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    transition: all ease 0.3s;
+}
+
+
+#nav a{
+    color: black;
+    text-decoration: none;
+
+}
+#nav p{
+    color: black;
+}
+#nav h3{
+    color: black;
+
+}
+#nav img{
+    padding: 10px;
+    margin-left: 7%;
+  
+
+}
+#nav i{
+    font-size: x-large;
+    color: black;
+    padding-left: 20px;
+
+}
+#nav:hover{
+    background-color: rgba(0, 0, 0, 0.879);
+}
+#nav:hover h3{
+    color: white;
+    cursor: pointer;
+}
+#nav:hover p{
+    color: white;
+}
+#nav:hover i{
+    color: white;
+    cursor: pointer;
+}
+#nav:hover a{
+    color: white;
+    cursor: pointer;
+}
+#nav:hover img{
+    cursor: pointer;
+}
+
+#center{
+    width: 100%;
+    position: relative;
+}
+#center img{
+    width:100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+#center h1{
+    position: absolute;
+    color: white;
+    margin-left: 2%;
+    top: 72%;
+    font-weight: 600;
+
+}
+#center h3{
+    position: absolute;
+    color: white;
+    margin-left: 2%;
+    top: 67%;
+    font-weight: 300;
+    font-size: x-large;
+}
+ .button49{
+  position: absolute;
+    border: 2px solid transparent;
+    background-color: white;
+    padding:  13px 30px;
+    font-weight: 600;
+    font-size: larger;
+    transition: all ease 0.3s;
+    top: 85%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.button49:hover{
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    
+}
+#hydration{
+    width: 100%;
+    background-color:white;
+    height: 20%;
+    position: relative;
+    margin-top: 20px;
+    
+}
+#hydration img{
+    margin-left: 85px;
+}
+
+#bottles{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: 5%;
+    margin-top: -5%;
+    cursor: pointer;
+    
+}
+#bottles img{
+
+}
+
+
+#names{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 4%;
+    width: 100%;
+    cursor: pointer;
+}
+#names h1{
+    
+}
+
+#price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 2%;
+    width: 100%;
+    margin-top: 5px;
+
+}
+#learn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 2%;
+    width: 100%;
+    margin-top: 5px;
+    transition: all ease 0.4s;
+
+}
+.button6 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button6:hover {
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+  }
+  .button7 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .button7:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .button8 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .button8:hover {
+    background-color: gainsboro;
+    color: black;
+  }
+  .button9 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .button9:hover {
+    background:linear-gradient(red,white,cyan);
+    color: black;
+  }
+  .button10 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .button10:hover {
+    background-color: rgb(33, 167, 228);
+    color: black;
+  }
+
+  .button11 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .button11:hover {
+    background-color:rgb(227, 68, 68);
+    color: black;
+  }
+
+#mid{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+#button{
+    top:77%;
+    left: 70%;
+    border: 1px solid none;
+    background-color: black;
+    color: white;
+    padding:  10px 20px;
+    font-weight: 400;
+    font-size: larger;
+    position: absolute;
+    transition: all ease 0.3s;
+}
+#button:hover{
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+
+
+#semimid{
+    margin-top: 40px;
+    width: 100%;
+    background-color:white;
+    height: 20%;
+    position: relative;
+    
+}
+#semimid img{
+    margin-left: 85px;
+}
+
+#cans{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: 2%;
+    margin-top: -5%;
+    cursor: pointer;
+    width: 100%;
+}
+#cans img{
+    height: 250px;
+}
+
+#names1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 4%;
+    width: 100%;
+    cursor: pointer;
+}
+#price1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 1%;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 17px;
+
+}
+
+#learn1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 2%;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all ease 0.4s;
+    
+
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button1:hover {
+    background:linear-gradient(red,WHITE,CYAN);
+    color: black;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button2:hover {
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button3:hover {
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+  }
+
+  .button4 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button4:hover {
+    background-color: rgb(239, 63, 63);
+    color: black;
+    cursor: pointer;
+  }
+  
+
+  .button5 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button5:hover {
+    background-color:orange;
+    color: black;
+    cursor: pointer;
+  }
+  
+
+  #low{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+#low img{
+}
+#btn{
+    top:80%;
+    left: 72%;
+    border: 1px solid none;
+    background-color: black;
+    color: white;
+    padding:  10px 20px;
+    font-weight: 400;
+    font-size: larger;
+    position: absolute;
+    transition: all ease 0.3s;
+}
+#btn:hover{
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+#lowmid{
+    margin-top: 40px;
+    width: 100%;
+    background-color:white;
+    height: 20%;
+    position: relative;
+    
+}
+#lowmid img{
+    margin-left: 130px;
+}
+
+
+#last{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-left:2%;
+    margin-top: -5%;
+    cursor: pointer;
+    width: 100%;
+}
+#last img{
+    height: 250px;
+}
+
+
+#names2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 4%;
+    width: 100%;
+    cursor: pointer;
+}
+#price2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 4%;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 17px;
+
+}
+
+#learn2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 2%;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all ease 0.4s;
+    }
+
+.button12 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button12:hover {
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+  }
+
+  .button13 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button13:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+  }
+
+  .button14 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button14:hover {
+    background:linear-gradient(red,white,cyan);
+    color: black;
+    cursor: pointer;
+  }
+
+  .button15 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button15:hover {
+    background-color: rgb(49, 180, 213);
+    color: black;
+    cursor: pointer;
+  }
+
+  .button16 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button16:hover {
+    background-color:rgb(225, 62, 62);
+    color: black;
+    cursor: pointer;
+  }
+
+  .button17 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .button17:hover {
+    background-color:greenyellow;
+    color: black;
+    cursor: pointer;
+  }
+
+  #footer{
+    margin-top:25px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  #aboutprime{
+    position: absolute;
+    width: 33%;
+    height: 500px;
+    top: 8%;
+    left:0%;
+  }
+  #aboutprime h3{
+    color: white;
+    margin-left: 80px;
+    font-size: 35px;
+    margin-top: 22px;
+    font-weight: 500;
+  }
+  #aboutprime p{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 100;
+
+  }
+  #aboutprime i{
+    color: white;
+    margin-left: 60px;
+    font-size: 30px;
+    cursor: pointer;
+
+
+  }
+#aboutprime a{
+    margin-left: 60px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+
+}
+
+#middle{
+    position: absolute;
+    width: 17%;
+    height: 500px;
+    left: 33%;
+    top: 8%;
+  }
+
+
+  #middle h4{
+    color: white;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 35px;
+    font-weight: 400;
+    cursor: pointer;
+
+  }
+  
+
+  #middle2{
+    position: absolute;
+    width: 17%;
+    height: 500px;
+    left: 50%;
+    top: 8%;
+  }
+
+
+  #middle2 h4{
+    color: white;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 35px;
+    font-weight: 400;
+    cursor: pointer;
+    margin left:80px;
+
+  }
+
+
+
+  #newsletter{
+    position: absolute;
+    width: 34%;
+    height: 500px;
+    left: 66%;
+    top: 8%;
+  }
+  #newsletter h3{
+    color: white;
+    margin-left: 100px;
+    font-size: 35px;
+    margin-top: 25px;
+    font-weight: 500;
+
+  }
+
+  #newsletter p{
+
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  #newsletter input{
+    padding: 13px;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-decoration: none;
+    width: 300px;
+    outline: none;
+
+  }
+
+
+  .button66 {
+    background-color:black; 
+    color: white; 
+    border: 1px solid white;
+    padding: 8px 25px;
+    width: 150px;
+    margin-left: 170px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .button66:hover {
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    border-radius: 2px;
+  }
